@@ -1,0 +1,10 @@
+body{
+	font-family:arial, verdana, helvetica;
+	color:#808080;
+	font-size:14px;
+}
+h1{
+	font-family:arial, sans-serif;
+	color:#FFFFFF;
+	font-size:36px;
+}

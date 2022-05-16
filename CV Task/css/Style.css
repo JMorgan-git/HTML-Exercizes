@@ -1,0 +1,75 @@
+/* STYLE SHEET FOR WEBSITE */
+@font-face {
+  font-family: oregonfont;
+  src: url("../media/oregon book.ttf");
+}
+
+body, html {
+  margin-left:1%;
+  margin-right:1%;
+  margin-bottom:1%;
+  margin-top:1%;
+}
+
+body {
+  font-family: oregonfont;
+  font-size: 85%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #333;
+  margin:0;
+}
+
+h1 {
+  text-align:center;
+  font-size: 3em;
+  font-weight:bolder;
+}
+ 
+h2 {
+  text-align:left;
+  font-size: 2.6em;
+  font-weight:bolder;
+
+  margin-left:5%;
+  margin-right:5%;
+}
+h3 {
+  text-align:left;
+  font-size: 2em;
+  font-weight:bolder;
+
+  margin-left:5%;
+  margin-right:5%;
+}
+p {
+  font-size:1.6em;
+  margin-left:5%;
+  margin-right:5%;
+}
+ul{
+  padding: 1%;
+  margin-left:5%;
+}
+li{
+  font-size: 1.6em;
+}
+
+div {
+  text-align:center
+}
+
+table{
+  margin:1%;
+  width: 60%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+table th {
+  font-size:2em;
+}
+table td{
+  font-size: 1.6em;
+  padding:5px;
+}
