@@ -1,0 +1,27 @@
+h1.vis {
+    visibility: hidden;
+}
+
+li {
+    display: inline;
+}
+
+strong {
+    display: block;
+}
+img{
+    width:100%;
+}
+
+.text {
+    position: relative;
+
+}
+
+.right {
+    font-size: 10em;
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+    z-index: 1;
+}
