@@ -1,0 +1,24 @@
+em {
+    color: blue;
+}
+
+body h1 {
+    color: red;
+}
+
+article>footer {
+    color: limegreen;
+}
+
+p+blockquote {
+    color: purple;
+}
+
+h1~p {
+    color: grey;
+}
+
+p:hover{
+    color:darkblue;
+    text-shadow: 1em 1em black;
+}
