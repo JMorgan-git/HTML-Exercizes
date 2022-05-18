@@ -24,13 +24,18 @@ do{
     }
 }while (hello)
 
+let expression = 1;
 switch (expression) {
     case 0:
-        console.log("Case 0");;
+        console.log("Case 0");
+        break;
     case 1:
-        console.log("Case 1");;
+        console.log("Case 1");
+        break;
     case 2:
-        console.log("Case 2");;
+        console.log("Case 2");
+        break;
     default:
-        console.log("Default");;
+        console.log("Default");
+        break;
   }
