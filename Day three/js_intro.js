@@ -1,3 +1,5 @@
+'use strict';
+
 console.log("Task One")
 // logging levels
 // log level

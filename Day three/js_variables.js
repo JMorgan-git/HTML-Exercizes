@@ -1,4 +1,6 @@
-console.log("Task Two")
+'use strict';
+
+console.log("Task Two");
 
 // let myNullValue = null;
 // console.log(myNullValue);
