@@ -50,3 +50,10 @@ for (let key in people){
 //     }
     
 // }
+
+//JSON object
+// let myJSON = {
+//     "name " : "John",
+//     "age" : 20
+// }
+// console.log(myJSON["name "])
