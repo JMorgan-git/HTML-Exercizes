@@ -11,3 +11,6 @@ console.log(name);
 console.log(age);
 console.log(isAdmin);
 
+alert(name);
+alert(age);
+alert(isAdmin);
