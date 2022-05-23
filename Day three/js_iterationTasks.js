@@ -39,6 +39,7 @@ for (let C = 100; C <= 200; C++) {
 //my first task answer just used let day = "Sunday" and the cases were Strings that corrosponded.
 let now = new Date(); 
 let day = now.getDay();
+console.log(day);
 switch (day) {
     case 0:
         console.log(`It's Sunday`);

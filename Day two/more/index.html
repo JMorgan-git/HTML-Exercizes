@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Buttons ect</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </header>
+    <!-- FORMS -->
+    <!-- Two main attributes method(how) + action(where) -->
+
+    <!-- GET method -->
+    <!-- Sends input into the URL bar -->
+    <!-- with a key : value -->
+    <form method="GET" action="search.html">
+        <h4>GET Form</h4>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search Term" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+            <button type="button" class="btn btn-dark">Search</button>
+        </div>
+    </form>
+
+    <!-- POST method -->
+    <!-- sends data to action URL -->
+    <form method="post" action="./mailform.php">
+        <h4>POST Form</h4>
+        <!-- text input -->
+        <input name="message" type="text" />
+        <!-- submit button -->
+        <button type="submit">SEND</button>
+
+    </form>
+
+    <!-- Dont need action/method -->
+    <form>
+        <h4>More Inputs</h4>
+
+        <!-- checkboxes -->
+        <!-- multiple values checked -->
+        <input type="checkbox" name="checkbox1" value="1" />
+        <input type="checkbox" name="checkbox2" value="2" />
+
+        <!-- radio buttons -->
+        <!-- linked together -->
+        <fieldset>
+            <legend>Question 1:</legend>
+            <input type="radio" name="choice" value="a" />a
+            <input type="radio" name="choice" value="b" />b
+            <input type="radio" name="choice" value="c" />c
+            <input type="radio" name="choice" value="d" />d
+        </fieldset>
+
+        <!-- date selection -->
+        <input type="date" name="dob" />
+
+        <!-- color -->
+        <input type="color" name="color" />
+    </form>
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

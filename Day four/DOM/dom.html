@@ -1,17 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DOM me</title>
-    </head>
-    <body>
-        <div id="addToMe"></div>
-        <button id="addBtn">Click me you scrub</button>
-        <div id="addToMe2"></div>
-        <button id="addBtn2">Click me for math</button>
 
-        <script src="./dom.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>DOM me</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <button id="addBtn">Click me you scrub</button>
+            </td>
+            <td>
+                <button id="addBtn2">Counting</button>
+            </td>
+            <td>
+                <button id="addBtntot">Count Total</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="addToMe"></div>
+            </td>
+            <td>
+                <div id="add"></div>
+            </td>
+            <td>
+                <div id="addtot"></div>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <button id="additionBtn">Add</button>
+            </td>
+            <td>
+                <button id="subtractionBtn">sub</button>
+            </td>
+            <td>
+                <button id="multiplicationBtn">times</button>
+            </td>
+            <td>
+                <button id="divisionBtn">div</button>
+            </td>
+            <td>
+                <button id="clearBtn">Clear</button>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <input id="inputOne" type="number" placeholder="Number One" />
+            </td>
+            <td>
+                <input id="inputTwo" type="number" placeholder="Number Two" />
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <div id="theDiv"></div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="./dom.js"></script>
+    <script src="./inputs.js"></script>
+</body>
+
 </html>

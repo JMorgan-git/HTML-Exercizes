@@ -1,0 +1,55 @@
+html{
+    background-color: #ffe600;
+}
+body{
+    padding: 6%;
+    background-image: linear-gradient(to bottom right, #00ff2a, #ff00dd);
+    height: 100%;
+    border-color: #FFFFFF;
+    border-width: 10px;
+    border-style: solid;
+}
+
+table {
+    margin: 1%;
+    width: 100%;
+    padding-right: 3%;
+    padding-left: 3%;;
+}
+
+table tr {
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    width: 25%;
+    background-color:aqua ;
+}
+
+table td {
+    justify-content: center;
+    border: 2px solid black;
+    padding: 0.5%;
+    width:20%;
+    background-color:aqua ;
+    
+}
+
+td button {
+    width:100%;
+    background-color: rgb(251, 255, 0);
+    font: bolder 1.5em "Comic Sans MS", "Comic Sans";
+}
+
+#theDiv {
+    text-align: center;
+    color: rgb(255, 72, 0);
+    background-color: rgb(251, 255, 0);
+    border: 1px solid black;
+    margin-left:30%;
+    margin-right: 30%;
+}
+input{
+    background-color: rgb(251, 255, 0);
+    justify-content: center;
+    width:80%;
+    margin: 3%;
+}
